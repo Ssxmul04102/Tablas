@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="witdh=device-width initial-scale=1.0">
+        <title>TABLA_6</title>
+        <style>
+          
+
+            /*th, td{
+                border-radius: 10px;
+                border: 1px solid green; dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+            }*/
+
+
+            /*tr{
+                background-color: orange;
+            }*/
+
+            /*th{
+                text-align: right;
+            }*/
+
+            /*table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+            }*/
+
+
+            tr:nth-child(odd){
+                background-color: red; /*color de fondo para filas pares*/
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Tablas</h1>
+        </header>
+        <nav>Menu</nav>
+        <main> <!-- un solo main-->
+            <section>
+                <table><!-- define contenedor de la tabla-->
+                    <thead> <!--define encabezado de la tabla-->
+                        <tr> <!-- define fila de encabezado-->
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Ciudad</th>
+                        </tr>
+                    </thead>
+                <tbody> <!--define cuepo de tabla-->
+                <tr>
+                    <td>Jhon</td>    
+                    <td>Zapata</td>
+                    <td>Villavicencio</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Ruiz</td>
+                    <td>Mallorca</td>
+                </tr>
+                <tr>
+                    <td>Ralley</td>
+                    <td>Pentecost</td>
+                    <td>San Francisco</td>
+                </tr>
+                </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>

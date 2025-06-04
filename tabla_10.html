@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Laptops</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
+    col.modelo {
+      background-color: #d0f0c0;
+    }
+
+    col.año {
+      background-color: #fce4b8;
+    }
+
+    col.precio {
+      background-color: #b8e0fc;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #555;
+      color: white;
+    }
+
+    td {
+      background-color: #f0f8ff;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Laptops Gama Alta</h1>
+  </header>
+
+  <main>
+    <section>
+      <table>
+        <caption>Laptops Disponibles - Año 2025</caption>
+
+        <colgroup>
+          <col class="modelo">
+          <col class="año">
+          <col class="precio">
+          <col span="2" style="background-color: #e0f7fa;">
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th>Año</th>
+            <th>Precio</th>
+            <th colspan="2">Características</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>MacBook Pro M3</td>
+            <td>2024</td>
+            <td>$12.000.000</td>
+            <td>Pantalla Retina</td>
+            <td>Chip M3 Pro</td>
+          </tr>
+          <tr>
+            <td>Dell XPS 15</td>
+            <td>2023</td>
+            <td>$10.500.000</td>
+            <td rowspan="2" colspan="2">Paquete Creativo (Pantalla 4K, GPU dedicada, stylus)</td>
+          </tr>
+          <tr>
+            <td>ASUS ROG Zephyrus</td>
+            <td>2025</td>
+            <td>$13.200.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
